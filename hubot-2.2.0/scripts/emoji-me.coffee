@@ -26,7 +26,7 @@ module.exports = (robot) ->
   robot.respond /emoji spin( me)?/i, (message) ->
     message.send 'spin'
   robot.respond /emoji card( me)?/i, (message) ->
-    message.send test_func
+    message.send test_func()
 test_func = ->
   "test func baby"
 
