@@ -22,13 +22,13 @@ black_cards = "TSA guidelines now prohibit __________ on airplanes.<>It's a pity
 
 module.exports = (robot) ->
   robot.respond /emoji( me)?/i, (message) ->
-    message.send random_emoji
-
+    message.send 'hi'
   robot.respond /emoji spin( me)?/i, (message) ->
-    message.send spin_emoji
-
+    message.send 'spin'
   robot.respond /emoji card ( me)?/i, (message) ->
-    message.send card_emoji
+    message.send test_func
+test_func = ->
+  "test func baby"
 
 random_emoji = (num = 1) ->
   return ":#{emoji[random_index(emoji)]}:" if num == 1
