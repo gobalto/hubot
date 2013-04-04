@@ -1,5 +1,3 @@
-["shipit.coffee",
-    "beerme.coffee",
-    "moarcatsme.coffee",
+[   "moarcatsme.coffee",
     "sudo.coffee",
     "teamcity.coffee"]
