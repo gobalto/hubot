@@ -13,6 +13,9 @@
 # Commands:
 #   hubot pug me - Receive a pug
 #   hubot pug bomb N - get N pugs
+#
+# Author:
+#  Github
 
 module.exports = (robot) ->
 
